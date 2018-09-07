@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="217.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainPageController">
+   <children>
+      <Button fx:id="addBtn" layoutX="475.0" layoutY="23.0" mnemonicParsing="false" onAction="#addFN" prefHeight="69.0" prefWidth="98.0" text="新增">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="patchPath" editable="false" layoutX="41.0" layoutY="150.0" onMouseClicked="#openFileChooserFN" prefHeight="30.0" prefWidth="402.0">
+         <contextMenu>
+            <ContextMenu />
+         </contextMenu>
+      </TextField>
+      <Label layoutX="41.0" layoutY="24.0" prefHeight="69.0" prefWidth="109.0" text="公司別：">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="81.0" prefHeight="69.0" prefWidth="109.0" text="路徑：">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="switchBtn" layoutX="475.0" layoutY="116.0" mnemonicParsing="false" onAction="#swtichFN" prefHeight="69.0" prefWidth="98.0" text="切換">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="companyIdCombo" layoutX="150.0" layoutY="44.0" onMouseClicked="#openCompanyListFN" prefWidth="150.0" />
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+</Pane>

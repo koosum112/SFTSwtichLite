@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <company>
+    <companyName>合鎰</companyName>
+    <address>10.40.140.189</address>
+    <account>sa</account>
+    <password>P@ssword</password>
+    <SFTSYS>SFTSYS_8200420554_3710</SFTSYS>
+    <patchPath>E:\Company\digiwin\Program\Develop\test_environment\JBOSS\JBOSS_8130\SFT\待測試\00000-合鎰\10.2018-03-05_09-56-35\SFT_Patch_3.7.10_180305.exe</patchPath>
+  </company>
+  <company>
+    <companyName>晉椿</companyName>
+    <address>10.40.140.189</address>
+    <account>sa</account>
+    <password>P@ssword</password>
+    <SFTSYS>SFTSYS_0000101088_379</SFTSYS>
+    <patchPath>E:\Company\digiwin\Program\Develop\test_environment\JBOSS\JBOSS_8130\SFT\待測試\00000-晉椿\22.2018-07-27_16-10-25\SFT_Patch_3.7.9_180727.exe</patchPath>
+  </company>
+</config>

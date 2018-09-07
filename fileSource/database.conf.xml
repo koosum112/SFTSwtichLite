@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config> 
+  <DatabaseDriver>net.sourceforge.jtds.jdbc.Driver</DatabaseDriver>  
+  <DatabaseUri>jdbc:jtds:sqlserver://sqlserver:1433/{SFTSYS}</DatabaseUri>  
+  <DatabaseUsername>{account}</DatabaseUsername>  
+  <DatabasePassword>{password}</DatabasePassword>  
+  <DatabaseCatalog>{SFTSYS}</DatabaseCatalog>  
+  <DatabaseHome>D:\workspace\SFT_DB</DatabaseHome>  
+  <DatabaseRestore>SFT_STD.BAK</DatabaseRestore>  
+  <DatabaseMaxActive>200</DatabaseMaxActive>  
+  <DatabaseMaxIdle>100</DatabaseMaxIdle>  
+  <DatabaseMinIdle>50</DatabaseMinIdle>  
+  <DatabaseMaxWait>1000</DatabaseMaxWait>  
+  <DatabaseRoot>D:\MSSQL2014\MSSQL12.MSSQLSERVER\MSSQL\DATA</DatabaseRoot>  
+  <DefaultDatabaseDriver>net.sourceforge.jtds.jdbc.Driver</DefaultDatabaseDriver>  
+  <DefaultDatabaseUri>jdbc:jtds:sqlserver://sqlserver:1433/$schema</DefaultDatabaseUri>  
+  <DefaultDatabaseUsername>{account}</DefaultDatabaseUsername>  
+  <DefaultDatabasePassword>{password}</DefaultDatabasePassword>  
+  <DatabaseIp>{address}</DatabaseIp>
+</config>

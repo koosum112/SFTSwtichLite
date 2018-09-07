@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="379.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddCompanyPageController">
+   <children>
+      <Label layoutX="41.0" layoutY="24.0" prefHeight="69.0" prefWidth="155.0" text="公司別名稱：">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="90.0" prefHeight="69.0" prefWidth="155.0" text="資料庫IP：">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="saveBtn" layoutX="540.0" layoutY="201.0" mnemonicParsing="false" onAction="#saveFN" prefHeight="69.0" prefWidth="98.0" text="儲存">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="41.0" layoutY="157.0" prefHeight="69.0" prefWidth="155.0" text="資料庫帳號：">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="224.0" prefHeight="69.0" prefWidth="155.0" text="資料庫密碼：">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="289.0" prefHeight="69.0" prefWidth="155.0" text="SFTSYS：">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="companyName" layoutX="196.0" layoutY="35.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="address" layoutX="196.0" layoutY="101.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="account" layoutX="196.0" layoutY="171.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="password" layoutX="196.0" layoutY="235.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="SFTSYS" layoutX="196.0" layoutY="304.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="cancelBtn" layoutX="540.0" layoutY="283.0" mnemonicParsing="false" onAction="#cancelFN" prefHeight="69.0" prefWidth="98.0" text="取消">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+</Pane>
